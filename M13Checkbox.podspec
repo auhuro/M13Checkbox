@@ -28,7 +28,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
   s.platform     = :ios, '6.0'
 
-  s.source = { :git => "https://github.com/Marxon13/M13Checkbox.git", :tag => "v1.1.2"}
+  s.source = { :git => "https://github.com/auhuro/M13Checkbox.git", :tag => "v1.1.2"}
 
   s.source_files  = 'Classes/*'
 
