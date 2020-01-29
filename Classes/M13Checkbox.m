@@ -308,7 +308,8 @@
     do {
         //Update font
         fontSize -= 1;
-        UIFont *font = [UIFont fontWithName:_titleLabel.font.fontName size:fontSize];
+        // UIFont *font = [UIFont fontWithName:_titleLabel.font.fontName size:fontSize];
+        UIFont *font = [UIFont systemFontOfSize:fontSize];
         //Get size
         CGSize labelSize;
         NSString *text = @"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
@@ -320,7 +321,8 @@
         tempHeight = labelSize.height;
     } while (tempHeight >= height);
     
-    _titleLabel.font = [UIFont fontWithName:_titleLabel.font.fontName size:fontSize];
+    // _titleLabel.font = [UIFont fontWithName:_titleLabel.font.fontName size:fontSize];
+    _titleLabel.font = [UIFont systemFontOfSize:fontSize];
 }
 
 - (void)autoFitWidthToText
